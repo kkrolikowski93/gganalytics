@@ -1,9 +1,9 @@
 <?php
 
-class GoogleDataStore extends Object
 class GoogleDataStore extends SS_Object
 {
 
+    public $test;
     protected $labels = array(
         'visits' => 'Visits',
         'pageviews' => 'Page Views',
