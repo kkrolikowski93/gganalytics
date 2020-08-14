@@ -1,6 +1,7 @@
 <?php
 
 class GoogleDataStore extends Object
+class GoogleDataStore extends SS_Object
 {
 
     protected $labels = array(
